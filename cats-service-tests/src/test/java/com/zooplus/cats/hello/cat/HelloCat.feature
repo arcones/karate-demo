@@ -2,7 +2,7 @@
 Feature: Try out every Karate feature that will be shown in the talk using the cats API as target
 
   Scenario: Create a cat
-    Given url 'http://localhost:4567/v1/cats'
+    Given url 'https://my-json-server.typicode.com/arcones/karate-apiDaysMad19/cats'
     And request { name: 'Chiquito', age: 8 }
     When method PUT
     Then status 201
@@ -14,7 +14,7 @@ Feature: Try out every Karate feature that will be shown in the talk using the c
     Then status 204
 
   Scenario: Create, retrieve and delete a cat
-    Given url 'http://localhost:4567/v1/cats'
+    Given url 'https://my-json-server.typicode.com/arcones/karate-apiDaysMad19/cats'
     And request { name: 'Satan', age: 2 }
     When method PUT
     Then status 201
@@ -34,7 +34,7 @@ Feature: Try out every Karate feature that will be shown in the talk using the c
     Then status 404
 
   Scenario: Retrieve a non-existent cat
-    Given url 'http://localhost:4567/v1/cats'
+    Given url 'https://my-json-server.typicode.com/arcones/karate-apiDaysMad19/cats'
     And path 'Alfredo'
     And method GET
     Then status 404

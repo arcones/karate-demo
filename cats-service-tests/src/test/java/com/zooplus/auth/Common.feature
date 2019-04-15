@@ -8,5 +8,3 @@ Feature: Intended to be called from another features
     And form field password = 'CambiameDeUnaVez123'
     And method GET
     And status 200
-
-    
