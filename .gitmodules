@@ -1,9 +1,0 @@
-[submodule "karate-skeleton"]
-	path = karate-skeleton
-	url = git@github.com:arcones/karate-skeleton.git
-[submodule "cats-as-a-service"]
-	path = cats-as-a-service
-	url = git@github.com:arcones/cats-as-a-service.git
-[submodule "cats-service-tests"]
-	path = cats-service-tests
-	url = git@github.com:arcones/cats-service-tests.git
