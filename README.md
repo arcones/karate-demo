@@ -16,9 +16,8 @@ Inside the folder where you have cloned the repo, run:
 Open the test reports just generated with:
  ```xdg-open target/cucumber-html-reports/overview-features.html```
 
+## Want some more? 
+A repo with a more complete Karate test suite could be found [here](https://github.com/arcones/karate-meetup)
 
-You can find the 
-
-Want some more? A repo with a more complete Karate test suite could be found [here](https://github.com/arcones/karate-meetup)
-
-You can send me any feedback regarding the project to marta.arcones@gmail.com
+## Any feedback?
+Send me anything but viruses to marta.arcones@gmail.com
