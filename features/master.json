@@ -1,0 +1,27 @@
+{
+  "id": "a9f7a56b-8d5c-455c-9d13-808461d17b91",
+  "name": "Miyagi",
+  "age": 99,
+  "isTheBest": true,
+  "defeats" : null,
+  "favouriteFoods": [
+    "Cosma",
+    "Tigerino",
+    "Purizon"
+  ],
+  "pupils": [
+    {
+      "id": 68473264,
+      "name": "Inari"
+    },
+    {
+      "id": 14,
+      "name": "Axel"
+    },
+    {
+      "id": 23434343,
+      "name": "Slash"
+    }
+  ]
+}
+
