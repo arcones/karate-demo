@@ -3,16 +3,12 @@ Repo with assets that will be used in a talk about [Karate testing framework](ht
 
 ## Assets
 - [Slides](Slides.pdf) 
-- [Cats-as-a-service](https://github.com/arcones/cats-as-a-service) HTTP API used as a subject under test
-- [Cats-service-tests](https://github.com/arcones/cats-service-tests) Karate test suite
+- [Karate standalone test suite](./Standalone-test-suite)
 
-## Super important!!!
-This project contains submodules, so don't forget to, just before you cloned the repo:
-```bash
-git submodule init
-```
-```bash
-git submodule update
-```
+## Get started
+
+
+
+Want some more? A repo with a more complete Karate test suite could be found [here](https://github.com/arcones/karate-meetup)
 
 You can send me any feedback regarding the project to marta.arcones@gmail.com
