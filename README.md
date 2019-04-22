@@ -9,14 +9,13 @@ You can find the slides [here](https://bit.ly/apidays-karate-slides).
  - Java 8+ runtime installed
 
 ## Steps
-1. Run the test suite
-Inside the folder where you have cloned the repo, run:
+1. Inside the folder where you have cloned the repo, run:
 
- ```java -jar karate.jar *```
+	```java -jar karate.jar *```
 
 2. Open the test reports just generated with:
 
- ```xdg-open target/cucumber-html-reports/overview-features.html```
+	```xdg-open target/cucumber-html-reports/overview-features.html```
 
 ## Want some more? 
 A repo with a more complete Karate test suite could be found [here](https://github.com/arcones/karate-meetup)
