@@ -11,9 +11,11 @@ You can find the slides [here](https://bit.ly/apidays-karate-slides).
 ## Steps
 1. Run the test suite
 Inside the folder where you have cloned the repo, run:
+
  ```java -jar karate.jar *```
-2. Check the reports
-Open the test reports just generated with:
+
+2. Open the test reports just generated with:
+
  ```xdg-open target/cucumber-html-reports/overview-features.html```
 
 ## Want some more? 
