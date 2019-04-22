@@ -6,7 +6,7 @@ You can find the slides [here](https://bit.ly/apidays-karate-slides).
 
 ## Prerequisites
  - A decent OS, AKA any Unix variant (Linux or MacOS)
- - Java runtime installed
+ - Java 8+ runtime installed
 
 ## Steps
 1. Run the test suite
