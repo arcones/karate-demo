@@ -2,10 +2,10 @@
 
 Repo with assets that will be used in a talk about [Karate testing framework](https://github.com/intuit/karate) that will be held in [API Days Madrid 2019 Conference](http://apidaysmad.apiaddicts.org/)
 
-You can find the slides [here](bit.ly/apidays-karate-slides).
+You can find the slides [here](https://bit.ly/apidays-karate-slides).
 
 ## Prerequisites
- - A decent OS, AKA Linux
+ - A decent OS, AKA any Unix variant (Linux or MacOS)
  - Java runtime installed
 
 ## Steps
