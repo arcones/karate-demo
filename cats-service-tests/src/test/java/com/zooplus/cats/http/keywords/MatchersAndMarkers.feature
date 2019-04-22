@@ -2,7 +2,7 @@
 Feature: Show other matches and markers
 
   Scenario: Create, retrieve and delete a cat
-    Given url 'http://localhost:4567/v1/cats/master'
+    Given url 'http://karate-apidaysmad19.mocklab.io/cats/master'
     When method GET
     Then status 200
 
@@ -22,7 +22,7 @@ Feature: Show other matches and markers
     }
     """
 
-    Given url 'http://localhost:4567/v1/cats/master'
+    Given url 'http://karate-apidaysmad19.mocklab.io/cats/master'
     When method GET
     Then status 200
 

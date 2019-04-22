@@ -2,7 +2,7 @@
 Feature: Show the usage of Karate core keywords
 
   Background: Store common variables used accross the scenarios
-    * url 'http://localhost:4567/v1/cats'
+    * url 'http://karate-apidaysmad19.mocklab.io/cats'
 
   Scenario: Retrieve favourite food of cat's parent
     Given path 'Felix/parent/food'
@@ -47,10 +47,6 @@ Feature: Show the usage of Karate core keywords
     When method DELETE
     Then status 204
 
-    Given path 'Satan'
-    When method GET
-    Then status 404
-
   Scenario: Create, retrieve and delete a cat
     * def catName = 'Satan'
 
@@ -68,9 +64,3 @@ Feature: Show the usage of Karate core keywords
     Given path response.name
     When method DELETE
     Then status 204
-
-    Given path catName
-    When method GET
-    Then status 404
-
-

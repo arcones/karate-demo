@@ -1,20 +1,8 @@
 @HelloCat
-Feature: Try out every Karate feature that will be shown in the talk using the cats API as target
-
-  Scenario: Create a cat
-    Given url 'https://my-json-server.typicode.com/arcones/karate-apiDaysMad19/cats'
-    And request { name: 'Chiquito', age: 8 }
-    When method PUT
-    Then status 201
-    And match response == { id: '#notnull', name: 'Chiquito', age: 8, parentId: 0}
-    And match response $.name == 'Chiquito'
-
-    Given path response.name
-    When method DELETE
-    Then status 204
+Feature: Basic warm up with Karate
 
   Scenario: Create, retrieve and delete a cat
-    Given url 'https://my-json-server.typicode.com/arcones/karate-apiDaysMad19/cats'
+    Given url 'http://karate-apidaysmad19.mocklab.io/cats'
     And request { name: 'Satan', age: 2 }
     When method PUT
     Then status 201
@@ -29,12 +17,8 @@ Feature: Try out every Karate feature that will be shown in the talk using the c
     When method DELETE
     Then status 204
 
-    Given path 'Satan'
-    When method GET
-    Then status 404
-
   Scenario: Retrieve a non-existent cat
-    Given url 'https://my-json-server.typicode.com/arcones/karate-apiDaysMad19/cats'
+    Given url 'http://karate-apidaysmad19.mocklab.io/cats'
     And path 'Alfredo'
     And method GET
     Then status 404

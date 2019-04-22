@@ -1,6 +1,0 @@
-{
-  "cats": [
-    { "name": "Chiquito", "age": 8, "parentId": 0 },
-	{ "name": "Satan", "age": 2, "parentId": 0 }
-  ]
-}

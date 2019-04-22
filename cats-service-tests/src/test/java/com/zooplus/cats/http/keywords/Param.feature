@@ -2,7 +2,7 @@
 Feature: Show the usage of Karate param keyword
 
   Background:
-    * url 'http://localhost:4567/v1/cats'
+    * url 'http://karate-apidaysmad19.mocklab.io/cats'
 
   Scenario: Retrieve filtered cats
 
@@ -14,7 +14,7 @@ Feature: Show the usage of Karate param keyword
     Given params { age: 9, name: 'Jacobo'}
     When method GET
     Then status 200
-    And match response.[0].name == 'Jacobo'
+    And match response.[0].name == 'Perry'
     And match response.[0].age == 9
 
 
