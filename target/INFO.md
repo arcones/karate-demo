@@ -1,1 +1,0 @@
-Your tests reports will be stored in this folder
