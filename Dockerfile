@@ -6,10 +6,7 @@ RUN apt-get update && apt-get install -y git nginx && rm -rf /var/lib/apt/lists/
 
 RUN git clone https://github.com/arcones/karate-apiDaysMad19.git && cd karate-apiDaysMad19 && java -jar karate.jar *
 
-RUN rm -v /etc/nginx/nginx.conf
-RUN cp karate-apiDaysMad19/nginx.conf /etc/nginx/
-
-RUN cp -r karate-apiDaysMad19/target/cucumber-html-reports/* /usr/share/nginx/html/ ##quitar y ponerlo en el fichero de configuracion
+RUN rm -v /etc/nginx/nginx.conf && cp karate-apiDaysMad19/nginx.conf /etc/nginx/
 
 RUN cp -r karate-apiDaysMad19/target/cucumber-html-reports /var/www/html/
  
