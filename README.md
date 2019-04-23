@@ -12,7 +12,7 @@ Once inside the cloned repo, you can run the test suite with your local Java wit
 ```
 java -jar karate.jar *
 ```
-... or you can use your docker engine (useful if you don't have Java runtime installed):
+...or you can use your docker engine (useful if you don't have Java runtime installed):
 ```
 docker run -v "$PWD/target:/target" arcones/karate-dsl:latest
 ```
@@ -22,6 +22,7 @@ Either with Java or Docker, the execution should have generated a Cucumber HTML 
 
 ## Want some more? 
 A repo with a more complete Karate test suite could be found [here](https://github.com/arcones/karate-meetup)
+
 I went through all those examples in the following [meetup](http://bit.ly/karate-meetup)
 
 ## Any feedback?
