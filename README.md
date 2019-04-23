@@ -5,14 +5,15 @@ Repo with assets that will be used in a talk about [Karate testing framework](ht
 You can find the slides [here](https://bit.ly/apidays-karate-slides).
 
 ## Prerequisites
- - [Java 8+ runtime](https://java.com/en/download/manual.jsp) installed
+ - [Java 8+ runtime](https://java.com/en/download/manual.jsp) or [Docker](https://docs.docker.com/install/)
 
-## Steps
-1. Inside the folder where you have cloned the repo, run:
 
+## With Java
 	```java -jar karate.jar *```
+## With Docker
 
-2. TODO Reports
+## Reports
+Either with Java or Docker, the execution should have generated a Cucumber HTML report that could be open at [./target/cucumber-html-reports/overview-features.html](./target/cucumber-html-reports/overview-features.html)
 
 ## Want some more? 
 A repo with a more complete Karate test suite could be found [here](https://github.com/arcones/karate-meetup)
