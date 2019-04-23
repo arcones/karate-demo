@@ -8,11 +8,11 @@ You can find the slides [here](https://bit.ly/apidays-karate-slides).
  - [Java 8+ runtime](https://java.com/en/download/manual.jsp) **or** [Docker](https://docs.docker.com/install/)
 
 ### Run the test suite :gear:
-Once inside the cloned repo, you can run the test suite with your local Java with:
+Once inside the cloned repo, you can run the test suite with your *local Java runtime* with:
 ```
 java -jar karate.jar *
 ```
-...or you can use your docker engine (useful if you don't have Java runtime installed):
+...or you can use your *docker engine* (useful if you don't have Java runtime installed):
 ```
 docker run -v "$PWD/target:/target" arcones/karate-dsl:latest
 ```
