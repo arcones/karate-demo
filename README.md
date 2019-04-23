@@ -9,9 +9,13 @@ You can find the slides [here](https://bit.ly/apidays-karate-slides).
 
 
 ## With Java
-	```java -jar karate.jar *```
+    ```
+    java -jar karate.jar *
+    ```
 ## With Docker
-    ```docker run -v "$PWD/target:/target" arcones/karate-dsl:latest```
+    ```
+    docker run -v "$PWD/target:/target" arcones/karate-dsl:latest
+    ```
 
 ## Reports
 Either with Java or Docker, the execution should have generated a Cucumber HTML report that could be open at [./target/cucumber-html-reports/overview-features.html](./target/cucumber-html-reports/overview-features.html)
