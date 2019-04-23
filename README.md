@@ -19,3 +19,11 @@ A repo with a more complete Karate test suite could be found [here](https://gith
 
 ## Any feedback?
 Send me anything but viruses to marta.arcones@gmail.com
+
+
+
+DOCKER
+
+docker build . -t karate-dsl
+
+docker run -d -p 8000:99 arcones/karate-dsl:latest
