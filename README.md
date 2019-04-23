@@ -18,7 +18,7 @@ docker run -v "$PWD/target:/target" arcones/karate-dsl:latest
 ```
 
 ### Reports
-Either with Java or Docker, the execution should generate a Cucumber HTML report that could be open at `target/cucumber-html-reports/overview-features.html`
+The execution should generate a Cucumber HTML report that could be open with your favourite browser at `target/cucumber-html-reports/overview-features.html`
 
 ## Want some more? 
 A repo with a more complete Karate test suite could be found [here](https://github.com/arcones/karate-meetup)
