@@ -4,8 +4,8 @@ Repo with assets that will be used in a talk about [Karate testing framework](ht
 
 You can find the slides [here](https://bit.ly/apidays-karate-slides).
 
-## Prerequisites
- - [Java 8+ runtime](https://java.com/en/download/manual.jsp) :coffee: or [Docker](https://docs.docker.com/install/) :whale2:
+## Prerequisites :coffee: :whale2:
+ - [Java 8+ runtime](https://java.com/en/download/manual.jsp) or [Docker](https://docs.docker.com/install/)
 
 ### Run the test suite :gear:
 Once inside the cloned repo, you can run the test suite with your local Java with:
@@ -20,10 +20,10 @@ docker run -v "$PWD/target:/target" arcones/karate-dsl:latest
 ### Reports :bar_chart:
 The execution should generate a Cucumber HTML report that could be open with your favourite browser at `target/cucumber-html-reports/overview-features.html`
 
-## Want some more? 
+## Want some more? :up:
 A repo with a more complete Karate test suite could be found [here](https://github.com/arcones/karate-meetup)
 
 I went through all those examples in the following [meetup](http://bit.ly/karate-meetup)
 
-## Any feedback?
+## Any feedback? :innocent:
 Send me anything but viruses to marta.arcones@gmail.com :woman_technologist:
