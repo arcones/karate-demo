@@ -4,7 +4,7 @@ Repo with assets that will be used in a talk about [Karate testing framework](ht
 
 You can find the slides [here](https://bit.ly/apidays-karate-slides).
 
-## Prerequisites :coffee: :whale2:
+## Prerequisites :coffee: || :whale2:
  - [Java 8+ runtime](https://java.com/en/download/manual.jsp) **or** [Docker](https://docs.docker.com/install/)
 
 ### Run the test suite :gear:
