@@ -14,8 +14,12 @@ java -jar karate.jar *
 ```
 ...or you can use your *docker engine* (useful if you don't have Java runtime installed):
 ```
-docker run -v "$PWD/target:/target" arcones/karate-dsl:latest
+docker build . -t karate-dsl
+
+docker run -v "$PWD/target:/target" karate-dsl:latest
 ```
+
+
 
 ### Reports :bar_chart:
 The execution should generate a Cucumber HTML report that could be open with your favourite browser at `target/cucumber-html-reports/overview-features.html`

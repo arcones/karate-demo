@@ -88,7 +88,7 @@ Feature: Try out basic Karate syntax
     Then print myCat.lastRequestTime
 
   Scenario Outline: Extract a cat from file
-    Given def cat = read('<catFile>')
+    Given def cat = read('../fixtures/<catFile>')
     Then match cat contains { name: '#notnull' }
     And match cat !contains { behaviour: 'Good' }
     Examples:

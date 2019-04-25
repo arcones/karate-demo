@@ -8,7 +8,7 @@ Feature: Show the usage of Karate request core keyword
     Then status 201
     And match response == { id: '#notnull', name: 'Samu', age: 2, parentId: 0}
 
-    Given request read('samuUpdate.json')
+    Given request read('../fixtures/samuUpdate.json')
     When method POST
     Then status 200
     And match response.age == 3

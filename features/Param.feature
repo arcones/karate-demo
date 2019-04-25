@@ -9,12 +9,10 @@ Feature: Show the usage of Karate param keyword
     Given param age = 9
     When method GET
     Then status 200
-    And match response == read('catsAged9.json')
+    And match response == read('../fixtures/catsAged9.json')
 
     Given params { age: 9, name: 'Jacobo'}
     When method GET
     Then status 200
     And match response.[0].name == 'Perry'
     And match response.[0].age == 9
-
-

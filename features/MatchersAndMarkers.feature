@@ -6,7 +6,7 @@ Feature: Show other matches and markers
     When method GET
     Then status 200
 
-    And match response == read('master.json')
+    And match response == read('../fixtures/master.json')
     And match response != { id: '#notnull', name: 'Ezequiel', age: 1}
     And match response contains
     """
