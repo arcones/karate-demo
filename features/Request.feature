@@ -17,7 +17,7 @@ Feature: Show the usage of Karate request core keyword
     When method DELETE
     Then status 204
 
-  Scenario: Retrieve cat by name
+  Scenario: Create cat
     * def cat = { name: 'Samu', age: 2 }
 
     Given url 'http://karate-apidaysmad19.mocklab.io/cats'

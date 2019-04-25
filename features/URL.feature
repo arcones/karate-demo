@@ -1,4 +1,5 @@
 @URL
+
 Feature: Show the usage of Karate core keywords
 
   Scenario: Create, retrieve and delete a cat

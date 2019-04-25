@@ -4,6 +4,11 @@ Feature: Try out basic Karate syntax
   Background: Area to define variables used in the scenarios of this file
     * def catName = 'Neo'
 
+  Scenario: Greet the cat
+    Given def greet = 'Guten morgen '
+    Then print greet + catName
+    And assert catName == 'Neo'
+
   Scenario: Print my cat that is old and grumpy
     Given def age = 10
     And def myCat = { name: '#(catName)', age: '#(age)', isHappy: false}
@@ -25,8 +30,9 @@ Feature: Try out basic Karate syntax
     But match newbornCats.[2].name != 'Neo'
 
   Scenario Outline: Greet several cats
-    Given def cat = { name: '<visigothicName>', age: '<age>'}
-    Then print 'Hello Visigothic cat ' + cat.name + ' who is ' + cat.age + ' years old'
+    Given def cat = { name: '<visigothicName>', age: <age>, epoch: 'Ancient'}
+    Then match cat == { name: '#regex .*o', age: #number, epoch: 'Ancient'}
+    And assert cat.epoch == 'Ancient'
     Examples:
       | visigothicName | age |
       | Ataulfo        | 12  |

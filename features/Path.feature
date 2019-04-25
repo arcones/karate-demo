@@ -33,7 +33,8 @@ Feature: Show the usage of Karate core keywords
     Then status 204
 
   Scenario: Create, retrieve and delete a cat
-    Given request { name: 'Satan', age: 2 }
+    Given url 'http://karate-apidaysmad19.mocklab.io/cats'
+    And request { name: 'Satan', age: 2 }
     When method PUT
     Then status 201
     And match response == { id: '#notnull', name: 'Satan', age: 2, parentId: 0}
