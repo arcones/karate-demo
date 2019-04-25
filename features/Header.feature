@@ -1,18 +1,14 @@
 @Headers
 Feature: Show the usage of Karate header semantic field
 
-  Background:
-    * def testId = java.util.UUID.randomUUID()
-    * def catName = 'Pozi'
-    * configure headers = { 'Annoying-Header' : 'I should be always there' }
 
   Scenario: Create a cat correctly and the delete it
     Given url 'http://karate-apidaysmad19.mocklab.io/cats'
-    And request ({ name: catName , age: 8 })
-    And header Test-Execution-Info = 'AWS_DEV_' + testId
+    And request { name: 'Paco' , age: 8 }
+    And header Test-Execution-Info = '20190426'
     When method PUT
     Then status 201
-    And match response.name == '#(catName)'
+    And match response.name == 'Paco'
 
     Given path response.name
     And def myHeaders = {Adios: 'muy buenas', Gato: 'Molesto'}

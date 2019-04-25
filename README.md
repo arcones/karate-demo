@@ -2,7 +2,7 @@
 
 Repo with assets that will be used in a talk about [Karate testing framework](https://github.com/intuit/karate) that will be held in [API Days Madrid 2019 Conference](http://apidaysmad.apiaddicts.org/)
 
-You can find the slides [here](https://bit.ly/apidays-karate-slides).
+You can find the slides [here](https://bit.ly/karate-slides).
 
 ## Prerequisites :coffee: || :whale2:
  - [Java 8+ runtime](https://java.com/en/download/manual.jsp) **or** [Docker](https://docs.docker.com/install/)
